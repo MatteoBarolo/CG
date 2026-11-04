@@ -1,0 +1,23 @@
+/* '*' è il selettore universale */
+/* applico ad ogni elemento ciò che mi dici */
+
+*{
+    padding: 10px;
+}
+
+/* SELETTORI DI TAG */
+h1 {
+    color: brown;
+}
+
+/* i paragrafi */
+p{
+    text-align: center;
+}
+
+/*  */
+div {
+    color: aqua;
+}
+
+
