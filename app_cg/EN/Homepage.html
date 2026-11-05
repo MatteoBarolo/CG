@@ -4,62 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CG_Site(EN)</title>
+    <link rel="stylesheet" href="../stile.css">
 </head>
 <body>
-    <a href="#Examples">Examples</a><br>
-    <a href="#The Dark Knight">The Dark Knight</a><br>
-    <a href="#Kamikaze Girls">Kamikaze Girls</a><br>
-    <a href="#Rope">Rope</a><br>
 
-    <p>Accessibility</p>
-    <a href="#FAQ">FAQ</a>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-sinistra">
+                <a href="#Examples">Examples</a>
+                <a href="#the-dark-knight">The Dark Knight</a>
+                <a href="#kamikaze-girls">Kamikaze Girls</a>
+                <a href="#rope">Rope</a>
+            </div>
+        <!-- Menu di navigazione in alto a destra -->
+        <nav class="nav-destra">
+            <div class="selettore-lingua">
+                <a href="../IT/Pagina Iniziale.html" target="_self">IT</a> | 
+                <a href="Homepage.html" target="_self">EN</a>
+            </div>
+            <a href="#Accessibility">ACCESSIBILITY</a>
+            <a href="#FAQ">FAQ</a>
+        </nav>
+    </header>
 
     <h1>SITE TITLE</h1>
-    <p> <em>SITE TITLE lets users take notes on video clips from any media content they choose.</em></p>
+    <p><em>SITE TITLE lets users take notes on video clips from any media content they choose.</em></p>
 
-    <div style="position: absolute; top:1em; right: 3em; padding: right 10em;">
-    <a class="in-alto-a-destra" href="/app_cg/IT/Pagina Iniziale.html" target="_self">IT</a>
-    </div>
-    <div style="position: absolute; top:1em; right: 2.6em; padding: right 10em;">
-    <div class="in-alto-a-destra">|</div>
-    </div>
-    <div style="position: absolute; top:1em; right: 1em; padding: right 10em;">
-    <a class="in-alto-a-destra" href="/app_cg/EN/Homepage.html" target="_self">EN</a>
-    </div>
+    <main>
+        <section id="Examples">
+            <h2>Examples</h2>
 
+            <a href="TheDarkKnight.html" target="_self">
+                <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+                    <image href="../poster/The dark Knight.jpg" x="0" y="0" width="300" height="300"/>
+                </svg>
+            </a>
+            <p>The Dark Knight (2008)</p>
+            
+            <a href="KamikazeGirls.html" target="_self">
+                <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg"> 
+                    <image href="../poster/Kamikaze_Girls.jpg" x="0" y="0" width="300" height="300" />
+                </svg>
+            </a>
+            <p>Kamikaze Girls (2004)</p>
+            
+            <a href="Rope.html" target="_self">
+                <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+                    <image href="../poster/Rope.jpg" x="0" y="0" width="300" height="300" />
+                </svg>
+            </a>
+            <p>Rope (1948)</p>
+        </section>
 
-    <p id="Examples">Examples</p>
+        <br>
+        <a href="../Nuovo_progetto.html" target="_blank">Create new project</a>
 
-    <a href="/app_cg/EN/TheDarkKnight.html" target="_self">
-    <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" id="The Dark Knight">
-    <image href="/app_cg/poster/The dark Knight.jpg" x="0" y="0" width="300" height="300"/>
-    </svg>
-    </a>
-    <p>The Dark Knight (2008)</p>
-    
-    <a href="/app_cg/EN/KamikazeGirls.html" target="_self">
-    <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" id="Kamikaze Girls"> 
-    <image href="/app_cg/poster/Kamikaze_Girls.jpg" x="0" y="0" width="300" height="300" />
-    </svg>
-    </a>
-    <p>Kamikaze Girls (2004)</p>
-    
-    <a href="/app_cg/EN/Rope.html" target="_self">
-    <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" id="Rope">
-    <image href="/app_cg/poster/Rope.jpg" x="0" y="0" width="300" height="300" />
-    </svg>
-    </a>
-    <p>Rope (1948)</p>
-    
-    <br>
-    <a href="Nuovo_progetto.html" target="_blank">Create new project</a>
+        <section id="FAQ">
+            <h2>FAQ</h2>
+            <p>QUESTION 1: How do I create a new project?</p>
+            <p>QUESTION 2: How do I upload a video clip to take notes on?</p>
+            <p>QUESTION 3: Can I export the notes I've taken?</p>
+            <p>QUESTION 4: What happens if I close the website without exporting my notes?</p>
+            <p>QUESTION 5: How do I learn how to use the website?</p>
+            <p>QUESTION 6: Are there shortcuts I can use?</p>
+        </section>
+    </main>
 
-    <p id =FAQ>FAQ</p>
-    <p>QUESTION 1: Come creo un nuovo progetto?</p>
-    <p>QUESTION 2: Come carico una clip video su cui voglio prendere appunti?</p>
-    <p>QUESTION 3: Si possono esportare gli appunti presi?</p>
-    <p>QUESTION 4: Se chiudo il sito senza esportare gli appunti, cosa succede?</p>
-    <p>QUESTION 5: Come imparo ad usare il sito web?</p> <!-- video tutorial-->
-    <p>QUESTION 6: Ci sono shortcut che si possono utilizzare?</p>
 </body>
 </html>
